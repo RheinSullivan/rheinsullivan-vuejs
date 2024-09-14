@@ -1,6 +1,6 @@
 Author :
 # Rhein Sullivan
-[Website](https://rheinsullivan.my.id/.html#sfc-website)
+[Rhein Sullivan](https://rheinsullivan.my.id/.html#sfc-Rhein-Sullivan)
 
 # Vue 3 + Vite + Tailwindcss
 
