@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <section class="pt-32 lg:pt-20 overflow-hidden place-items-center" id="home">
+  <section class="pt-10 md:pt-32 lg:pt-20 overflow-hidden place-items-center" id="home">
     <div class="container">
       <div class="grid grid-cols-1 gap-10 md:-mr-1 text-white md:grid-cols-2 md:max-h-[600px]">
         <!-- Home Content -->

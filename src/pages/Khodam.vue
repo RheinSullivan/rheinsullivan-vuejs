@@ -81,10 +81,10 @@ const handleClick = () => {
         <!-- Title -->
         <div class="flex items-center justify-between">
           <div class="w-1/2">
-            <h2 class="text-3xl sm:text-4xl md:text-5xl text-white font-bold mb-4 mt-5 md:mt-0">Cek Khodam <span class="text-red">Kamu</span></h2>
-            <p class="text-sm md:text-base text-white md:w-full">Jika kamu gabut, coba masukkan namamu di bawah, untuk mengecek khodam pada diri kamu</p>
+            <h2 class="text-2xl sm:text-4xl md:text-5xl text-white font-bold mb-4 mt-5 md:mt-0">Cek Khodam <span class="text-red">Kamu</span></h2>
+            <p class="text-xs md:text-base text-white md:w-full">Jika kamu gabut, coba masukkan namamu di bawah, untuk mengecek khodam pada diri kamu</p>
           </div>
-          <div class="block w-36 md:hidden">
+          <div class="block w-36 md:hidden -mr-5 md:mr-0">
             <img src="https://i.pinimg.com/564x/08/d5/21/08d521ece636dc2448bf7e142c85cc72.jpg" class="w-3/4 rounded-t-full" alt="" />
           </div>
         </div>
