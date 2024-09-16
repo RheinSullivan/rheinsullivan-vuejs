@@ -38,7 +38,7 @@ onMounted(() => {
         <img src="../assets/rhein-tab.png" alt="Rhein Sullivan Logo" class="w-16 lg:w-[60px]" />
         <h1 class="font-medium text-white text-xs hidden lg:block">
           <span class="font-bold text-lg text-red italic lg:text-2xl">Rhein Sullivan</span><br class="text-white" />
-          Frontend Developer
+          Pawang: Zahra Rahayu Ratna Dewi 😘
         </h1>
       </div>
       <!-- Button Mobile -->
@@ -66,6 +66,7 @@ onMounted(() => {
         <a href="#about" class="text-white lg:pt-2 font-medium hover:border-b-2 hover:border-red" :class="activeSection === 'about' ? 'border-b-2 border-red' : ''" @click="showNavbar = false">About</a>
         <a href="#project" class="text-white lg:pt-2 font-medium hover:border-b-2 hover:border-red" :class="activeSection === 'project' ? 'border-b-2 border-red' : ''" @click="showNavbar = false">Project</a>
         <a href="#quotes" class="text-white lg:pt-2 font-medium hover:border-b-2 hover:border-red" :class="activeSection === 'quotes' ? 'border-b-2 border-red' : ''" @click="showNavbar = false">Quotes</a>
+        <a href="#cekKhodam" class="text-white lg:pt-2 font-medium hover:border-b-2 hover:border-red" :class="activeSection === 'cekKhodam' ? 'border-b-2 border-red' : ''" @click="showNavbar = false">Cek Khodam</a>
         <a
           href="https://rheinsullivan.my.id/"
           class="hidden md:block px-3 py-2 text-white font-medium tracking-wider shadow-[5px_5px_0px_0px_#fff] hover:shadow-[5px_5px_0px_0px_#ff0000] bg-red w-full duration-300 hover:text-red hover:bg-white ml-20 lg:w-auto"

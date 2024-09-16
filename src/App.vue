@@ -4,7 +4,7 @@ import Framework from "./pages/Framework.vue";
 import About from "./pages/About.vue";
 import Project from "./pages/Project.vue";
 import Quotes from "./pages/Quotes.vue";
-import Contact from "./pages/Contact.vue";
+import Khodam from "./pages/Khodam.vue";
 import Footer from "./pages/Footer.vue";
 </script>
 
@@ -16,7 +16,7 @@ import Footer from "./pages/Footer.vue";
     <About />
     <Project />
     <Quotes />
-    <Contact />
+    <Khodam />
     <Footer />
   </div>
 </template>

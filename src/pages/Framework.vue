@@ -43,7 +43,7 @@ const updateBreakpoints = () => {
     spaceBetween.value = 10;
   } else {
     slidesPerView.value = 5;
-    spaceBetween.value = 20;
+    spaceBetween.value = 10;
   }
 };
 
@@ -67,7 +67,7 @@ onMounted(() => {
 
 <template>
   <div class="container py-8">
-    <div class="relative w-full overflow-hidden flex justify-center items-center lg:-mx-9">
+    <div class="relative w-full overflow-hidden flex justify-center items-center lg:-mx-10">
       <!-- Images -->
       <div
         class="flex transition-transform duration-1000 ease-in-out"

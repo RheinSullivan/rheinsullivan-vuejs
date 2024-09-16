@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <footer class="py-10">
+  <footer class="pb-10">
     <div className="container mx-auto">
       <div className="w-full border-t border-white">
         <!-- Social Media Icons -->
