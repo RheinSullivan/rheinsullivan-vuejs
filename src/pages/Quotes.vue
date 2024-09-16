@@ -22,7 +22,7 @@ const myQuotes = [
 </script>
 
 <template>
-  <section class="flex flex-col items-center py-20 text-white md:-mx-32">
+  <section class="flex flex-col items-center py-20 text-white md:-mx-32" id="quotes">
     <!-- Tittle -->
     <div class="space-y-4 text-center mx-auto mb-5">
       <h1 class="font-bold text-3xl md:text-4xl pb-3"><span class="text-red">My </span>Quotes</h1>

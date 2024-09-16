@@ -58,7 +58,7 @@ const projectCard = [
 </script>
 
 <template>
-  <section id="started">
+  <section id="project">
     <div class="container py-20 text-white">
       <div class="space-y-2 text-center max-w-[500px] mx-auto mb-16">
         <h1 class="text-4xl font-bold pb-3 text-red">Project <span class="text-white">Saya</span></h1>
