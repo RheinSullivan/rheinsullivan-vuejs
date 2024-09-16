@@ -12,3 +12,7 @@
     @apply text-sm font-semibold lg:text-base border-[1px] border-red px-4 py-2 shadow-[5px_5px_0px_0px_#ff0000] text-white hover:bg-red hover:text-white duration-300 hover:shadow-[5px_5px_0px_0px_#730202];
   }
 }
+
+input::placeholder {
+  @apply text-gray-600 text-xs md:text-sm;
+}

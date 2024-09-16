@@ -107,10 +107,3 @@ const handleClick = () => {
     </div>
   </section>
 </template>
-
-<style scoped>
-input::placeholder {
-  color: #4b5563;
-  font-size: 15px;
-}
-</style>
