@@ -1,12 +1,4 @@
 <script setup>
-import { Swiper, SwiperSlide } from "swiper/vue";
-import "swiper/css";
-import "swiper/css/grid";
-import "swiper/css/pagination";
-import { Grid, Pagination } from "swiper/modules";
-
-const modules = [Grid, Pagination];
-
 const projectCard = [
   {
     id: 1,
@@ -24,7 +16,7 @@ const projectCard = [
     img1: "2.png",
     img2: "Vue.png",
     link1: "https://desa-karangwuni.vercel.app/",
-    link2: "https://rheinsullivan.my.id/notfoundpage",
+    link2: "https://github.com/RheinSullivan/rheinsullivan-vuejs",
   },
   {
     id: 1,
@@ -71,23 +63,20 @@ const projectCard = [
       <div class="space-y-2 text-center max-w-[500px] mx-auto mb-16">
         <h1 class="text-4xl font-bold pb-3 text-red">Project <span class="text-white">Saya</span></h1>
         <p class="text-sm">Inilah beberapa projek website yang saya buat, ya seperti itulah...</p>
-        <div class="grid grid-cols-1 gap-5 my-5 -mx-3 lg:-mx-20 md:grid-cols-2 lg:grid-cols-3"></div>
-        <swiper :slides-per-view="3" :grid="{ rows: 2 }" :space-between="30" :pagination="{ clickable: true }" :modules="modules" class="mySwiper">
-          <swiper-slide>
-            <div v-for="card in projectCard" :key="card.id" class="relative space-y-4 bg-gray-300 m-2 rounded-xl text-black duration-300 hover:shadow-[7px_7px_0px_0px_#4b5563]">
-              <img :src="`/src/assets/ImageProject/${card.img1}`" class="cursor-pointer rounded-t-xl object-cover bg-cover" alt="" />
-              <div class="w-full h-0 -top-2 left-2 mt-8 absolute">
-                <img :src="`/src/assets/image/${card.img2}`" alt="Project Image" class="inset-0 w-auto h-[40px] object-contain" />
-              </div>
-              <div class="px-4 pb-5">
-                <h1 class="text-2xl mb-3 font-bold">{{ card.title }}</h1>
-                <p class="text-sm mb-4">{{ card.desc }}</p>
-                <a :href="card.link1" class="inline-block border-b-[1px] hover:text-black hover:border-red border-black text-red mr-5">Live Demo</a>
-                <a :href="card.link2" class="inline-block border-b-[1px] hover:text-red hover:border-black border-red text-black">Source Code</a>
-              </div>
-            </div>
-          </swiper-slide>
-        </swiper>
+      </div>
+      <div class="grid grid-cols-1 gap-5 my-5 -mx-3 lg:-mx-20 md:grid-cols-2 lg:grid-cols-3">
+        <div v-for="card in projectCard" :key="card.id" class="relative space-y-4 bg-gray-300 m-2 rounded-xl text-black duration-300 hover:shadow-[7px_7px_0px_0px_#4b5563]">
+          <img :src="`/src/assets/ImageProject/${card.img1}`" class="cursor-pointer rounded-t-xl object-cover bg-cover" alt="" />
+          <div class="w-full h-0 -top-2 left-2 mt-8 absolute">
+            <img :src="`/src/assets/image/${card.img2}`" alt="Project Image" class="inset-0 w-auto h-[40px] object-contain" />
+          </div>
+          <div class="px-4 pb-5">
+            <h1 class="text-2xl mb-3 font-bold">{{ card.title }}</h1>
+            <p class="text-sm mb-4">{{ card.desc }}</p>
+            <a :href="card.link1" class="inline-block border-b-[1px] hover:text-black hover:border-red border-black text-red mr-5">Live Demo</a>
+            <a :href="card.link2" class="inline-block border-b-[1px] hover:text-red hover:border-black border-red text-black">Source Code</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>

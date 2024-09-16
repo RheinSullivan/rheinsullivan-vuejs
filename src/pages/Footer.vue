@@ -4,6 +4,7 @@
   <footer class="py-10">
     <div className="container mx-auto">
       <div className="w-full border-t border-white">
+        <!-- Social Media Icons -->
         <div className="mb-3 flex items-center justify-center lg:items-end  lg:justify-end pt-3">
           <a href="#" target="_blank" className="mr-3 flex h-5 w-5 items-center justify-center rounded-full text-lg text-white hover:text-vueGreen ">
             <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -14,7 +15,6 @@
               />
             </svg>
           </a>
-
           <a href="#" target="_blank" className="mr-3 flex h-5 w-5 items-center justify-center rounded-full text-lg text-white hover:text-vueGreen ">
             <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <title>Instagram</title>
@@ -24,7 +24,6 @@
               />
             </svg>
           </a>
-
           <a href="#" target="_blank" className="mr-3 flex h-5 w-5 items-center justify-center rounded-full text-lg text-white hover:text-vueGreen ">
             <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <title>YouTube</title>
@@ -50,6 +49,7 @@
             </svg>
           </a>
         </div>
+        <!-- Copyright -->
         <p className="text-center text-sm font-medium text-white">
           Copyright &#169; 2024
           <a href="https://rheinsullivan.my.id/" target="_blank" className="font-bold">

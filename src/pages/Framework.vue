@@ -1,4 +1,5 @@
 <script setup>
+// Image Component
 import { ref, onMounted, onUnmounted } from "vue";
 import htmlImg from "../assets/image/HTML.png";
 import cssImg from "../assets/image/css-uwu.png";
@@ -9,7 +10,8 @@ import vueImg from "../assets/image/Vue.png";
 import vercelImg from "../assets/image/vercel.png";
 import windows11Img from "../assets/image/Windows11.png";
 
-const images = [
+// Data Image
+const originalImages = [
   { src: htmlImg, alt: "HTML UwU" },
   { src: cssImg, alt: "CSS UwU" },
   { src: vueImg, alt: "VueJS UwU" },
@@ -20,7 +22,10 @@ const images = [
   { src: windows11Img, alt: "Windows 11 UwU" },
 ];
 
-const currentImageIndex = ref(0);
+// Animastion
+const images = [...originalImages, ...originalImages];
+
+const currentPosition = ref(0);
 const slidesPerView = ref(1);
 const spaceBetween = ref(10);
 
@@ -45,23 +50,29 @@ const updateBreakpoints = () => {
 onMounted(() => {
   updateBreakpoints();
   window.addEventListener("resize", updateBreakpoints);
-  setInterval(() => {
-    currentImageIndex.value = (currentImageIndex.value + 1) % images.length;
-  }, 3000);
-});
 
-onUnmounted(() => {
-  window.removeEventListener("resize", updateBreakpoints);
+  const interval = setInterval(() => {
+    currentPosition.value += 1;
+    if (currentPosition.value >= originalImages.length) {
+      currentPosition.value = 0;
+    }
+  }, 2000);
+
+  onUnmounted(() => {
+    clearInterval(interval);
+    window.removeEventListener("resize", updateBreakpoints);
+  });
 });
 </script>
 
 <template>
   <div class="container py-8">
     <div class="relative w-full overflow-hidden flex justify-center items-center lg:-mx-9">
+      <!-- Images -->
       <div
         class="flex transition-transform duration-1000 ease-in-out"
         :style="{
-          transform: `translateX(-${currentImageIndex * (100 / slidesPerView)}%)`,
+          transform: `translateX(-${currentPosition * (100 / slidesPerView)}%)`,
           gap: `${spaceBetween}px`,
         }"
       >

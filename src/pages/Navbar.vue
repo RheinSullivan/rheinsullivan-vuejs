@@ -18,10 +18,12 @@ onMounted(() => {
 <template>
   <nav class="fixed top-0 left-0 w-full bg-dark backdrop-blur-sm z-20 transition py-1 duration-300 px-2 lg:px-[120px]" ref="navbar">
     <div class="container flex justify-between items-center h-20">
+      <!-- Logo & Title -->
       <div class="relative z-30 flex items-center gap-2 mb-2 md:pb-2 lg:mb-0">
         <img src="../assets/rhein-tab.png" alt="Rhein Sullivan Logo" class="w-16 lg:w-[60px]" />
         <h1 class="font-medium text-white text-xs hidden lg:block"><span class="font-bold text-lg text-red italic lg:text-2xl">Rhein Sullivan</span><br class="text-white" />Frontend Developer</h1>
       </div>
+      <!-- Button Mobile -->
       <div class="flex items-center gap-2 lg:hidden">
         <a
           href="https://vuejs.org/"
@@ -37,6 +39,7 @@ onMounted(() => {
           </svg>
         </button>
       </div>
+      <!-- Navbar Section -->
       <div
         class="absolute bg-dark/90 lg:bg-transparent flex flex-col items-start text-start top-[88px] md:-mt-2 inset-x-0 gap-5 py-7 px-5 ml-48 md:ml-0 transition duration-500 lg:flex-row lg:static md:text-center md:py-0 md:px-3 lg:gap-10 lg:duration-200 lg:translate-y-[150]"
         :class="!showNavbar ? 'translate-x-[150%]' : '-tran slate-y-0'"

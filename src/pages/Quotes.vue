@@ -23,10 +23,12 @@ const myQuotes = [
 
 <template>
   <section class="flex flex-col items-center py-20 text-white md:-mx-32">
+    <!-- Tittle -->
     <div class="space-y-4 text-center mx-auto mb-5">
       <h1 class="font-bold text-3xl md:text-4xl pb-3"><span class="text-red">My </span>Quotes</h1>
       <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, sed?</p>
     </div>
+    <!-- Content -->
     <div class="p-12">
       <div class="container grid grid-cols-1 gap-6 md:grid-cols-3">
         <div v-for="card in myQuotes" :key="card.id" class="py-5 px-5 rounded-lg text-white bg-gray-500">
