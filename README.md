@@ -1,6 +1,5 @@
 Author :
-# Rhein Sullivan
-[Rhein Sullivan](https://rheinsullivan.my.id/.html#sfc-Rhein-Sullivan)
+# [Rhein Sullivan](https://rheinsullivan.my.id/.html#sfc-Rhein-Sullivan)
 
 Cara menggunakan projek ini,
 1. Clone atau download semua isi disini.
