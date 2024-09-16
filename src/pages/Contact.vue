@@ -17,7 +17,7 @@
         <!-- Form Contact -->
         <form class="mt-14 w-full" action="#">
           <div class="h-16 w-full items-center flex md:h-14 md:w-1/2">
-            <input type="text" class="flex-grow rounded-l-lg text-sm px-3 h-full md:px-6 md:text-lg" placeholder="Silahkan kirim pesan dan emailmu kesini" />
+            <input type="text" class="flex-grow rounded-l-lg text-sm px-3 h-full md:px-6 md:text-lg focus:outline-none" placeholder="Silahkan kirim pesan dan emailmu kesini" />
             <button class="h-full px-3 lg:px-6 text-sm md:text-base text-white font-bold bg-red rounded-r-lg hover:bg-vueDark hover:text-black">Kirim</button>
           </div>
         </form>
