@@ -1,8 +1,11 @@
 <script setup>
-import Navbar from "./landingpage/Navbar.vue";
-import Framework from "./landingpage/Framework.vue";
-import About from "./landingpage/About.vue";
-import Project from "./landingpage/Project.vue";
+import Navbar from "./pages/Navbar.vue";
+import Framework from "./pages/Framework.vue";
+import About from "./pages/About.vue";
+import Project from "./pages/Project.vue";
+import Quotes from "./pages/Quotes.vue";
+import Contact from "./pages/Contact.vue";
+import Footer from "./pages/Footer.vue";
 </script>
 
 <template>
@@ -12,5 +15,8 @@ import Project from "./landingpage/Project.vue";
     <Framework />
     <About />
     <Project />
+    <Quotes />
+    <Contact />
+    <Footer />
   </div>
 </template>

@@ -56,7 +56,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="container py-12">
+  <div class="container py-8">
     <div class="relative w-full overflow-hidden flex justify-center items-center lg:-mx-9">
       <div
         class="flex transition-transform duration-1000 ease-in-out"
