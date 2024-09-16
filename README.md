@@ -1,5 +1,5 @@
 Author :
-# [Rhein Sullivan](https://rheinsullivan.my.id/.html#sfc-Rhein-Sullivan)
+# [Rhein Sullivan](https://rheinsullivan.my.id/)
 
 Cara menggunakan projek ini :
 1. Clone atau download semua isi disini.
@@ -10,7 +10,7 @@ Cara menggunakan projek ini :
 6. Testing run : npm run dev
 
 Framework :
-# [Vue 3](https://vuejs.org/.html#scf-Vue-3) + [Vite](https://vitejs.dev/.html#scf-Vite) + [Tailwindcss](https://tailwindcss.com/.html#scrf-Tailwindcss)
+# [Vue 3](https://vuejs.org/) + [Vite](https://vitejs.dev/) + [Tailwindcss](https://tailwindcss.com/)
 
 This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
