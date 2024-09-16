@@ -15,7 +15,7 @@ const projectCard = [
     desc: "Projek website Frontend yang dibuat menggunakan Framework Vite.js, React.js, dan Tailwindcss. Untuk tugas individu pada saat kegiatan KKN.",
     img1: "2.png",
     img2: "Vue.png",
-    link1: "https://desa-karangwuni.vercel.app/",
+    link1: "https://rheinsullivan-vuejs.vercel.app/",
     link2: "https://github.com/RheinSullivan/rheinsullivan-vuejs",
   },
   {
