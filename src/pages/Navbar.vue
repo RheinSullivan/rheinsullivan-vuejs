@@ -65,7 +65,7 @@ const handleClick = async (to) => {
       <!-- Button Mobile -->
       <div class="flex items-center gap-2 lg:hidden">
         <a
-          href="https://vuejs.org/"
+          href="https://rheinsullivan.my.id/"
           class="relative z-30 px-3 py-2 -mt-1.5 text-sm text-white font-medium bg-red shadow-[5px_5px_0px_0px_#fff] hover:shadow-[5px_5px_0px_0px_#ff0000] duration-300 w-full tracking-wider lg:w-auto hover:text-red hover:bg-white"
           >Contact Me
         </a>
