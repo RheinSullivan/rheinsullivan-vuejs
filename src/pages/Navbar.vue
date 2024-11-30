@@ -59,7 +59,7 @@ const handleClick = async (to) => {
         <img src="../assets/rhein-tab.png" alt="Rhein Sullivan Logo" class="w-16 lg:w-[60px]" />
         <h1 class="font-medium text-white text-xs hidden lg:block">
           <span class="font-bold text-lg text-red italic lg:text-2xl">Rhein Sullivan</span><br class="text-white" />
-          Pawang: Zahra Rahayu Ratna Dewi 😘
+          Student & Junior Fullstack & Mobile Developer
         </h1>
       </div>
       <!-- Button Mobile -->
